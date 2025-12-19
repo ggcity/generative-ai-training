@@ -669,6 +669,12 @@ Most AI tools allow you to toggle web search on/off:
 - If you've supplied the data, AI doesn't need to search the web for additional context
 - Web search increases risk of data exposure
 
+### AI Agents
+Up and coming advancement in GenAI is Agentic AI. These systems can do tasks on your behalf like browsing the web, fill out forms, booking reservations, or use your computer in general.
+- You are basically doing a screen sharing session with the AI agent
+- Take extra precautions as whatever is on your screen is being shared with these AI systems
+- Avoid sharing credentials
+
 ### AI Tools to Avoid Professionally (and Personally)
 
 **Avoid these tools entirely:**
