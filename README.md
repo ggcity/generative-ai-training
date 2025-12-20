@@ -218,12 +218,89 @@ Disclose AI use when transparency serves public interest, promotes trust, or ena
    - If yes: Do I have required approvals? If no, don't use AI
    - Can I complete the task using anonymized data or abstraction or generalization? If yes, anonymize, or talk in abstracts.
 
-
 ---
 
-## 6. Effective Prompting
+## 6. Everyday Casual Queries
 
-### The Standard Framework
+### Most AI use is probably a casual one
+
+Most people use AI like they use a search engine - typing in quick questions, getting fast answers, and moving on. This section acknowledges that reality and helps you understand when casual use is fine and when you need to shift to a more rigorous approach.
+
+### How AI Differs from Search Engines
+
+**Traditional search (Google, Bing):**
+- Shows you multiple sources
+- You see who's saying what
+- You evaluate source credibility yourself
+- You see disagreement and competing perspectives
+- Links go to original authoritative sources
+
+**AI tools (ChatGPT, Claude):**
+- Synthesizes one answer from many sources
+- You may not see the sources unless you ask
+- AI has already decided what it thinks are credible
+- Disagreements and dissents are hidden or smoothed over
+
+**Why this matters:** With search, you're doing the evaluation work yourself. With AI, the evaluation already happened invisibly. Sometimes that's fine. Sometimes it's risky.
+
+**When it's fine:** Quick factual lookups you can easily verify  
+**When it's risky:** Anything you'll act on
+
+### Example tasks for casual AI usage
+
+**Definitions and explanations:**
+* "What does COBRA stand for?"
+* "Explain the difference between a variance and a conditional use permit"
+* "Define 'prevailing wage' in California"
+
+**Format conversions:**
+- "Convert these bullet points into a paragraph"
+- "Turn this narrative into a comparison table"
+- "Rewrite this for a 6th grade reading level"
+
+**Basic how-to questions:**
+- "How do I create a pivot table in Excel?"
+- "What's the shortcut to insert a page break in Word?"
+- "How do I calculate percentage change from last year?"
+
+**Grammar, clarity, and translation:**
+- "Make this email more professional"
+- "Check this paragraph for grammar errors"
+- "Is this sentence clear or confusing?"
+- "A resident sent me an email in Vietnamese, please translate"
+
+**Brainstorming starting points:**
+- "Give me 10 ideas for resident engagement about the budget"
+- "What are different ways to organize a community meeting?"
+- "Suggest agenda topics for our department meeting"
+
+### When Casual Becomes Involved
+Warning signs that your "quick question" actually needs more of your attention:
+
+* The answer will go in a document others will read
+* You're making a decision based on the answer
+* It involves resident/employee data or rights
+* It's about policy interpretation or legal requirements
+* Money or safety implications
+
+### When to do without AI at all
+
+If you have a straight forward query that you would already know where to get authoritative answers to, consider going straight to the source instead.
+
+**For code/policy/procedure questions:**
+- Check municipal code
+- Check administrative regulations (intranet)
+- Check department procedures
+- Ask supervisor or subject matter expert
+- Ask colleagues who do this regularly
+
+**For legal/regulatory questions:**
+- Consult City Attorney's office
+- Check official state/federal agency websites
+- Review actual statutes, not summaries
+
+
+## 7. Effective Prompting for More Involved Tasks
 
 **An effective prompt for a more complex issue includes:**
 
@@ -478,7 +555,13 @@ If a conversation has gone off track, sometimes starting a new conversation with
 
 **The risk:** AI can be confidently wrong. It generates content to be helpful and agreeable, not necessarily to be accurate even if that was your constraint.
 
-**The requirement:** You must bring your subject matter expertise to judge quality, verify facts, and ensure the output actually solves your intended problem.
+**The requirement:**  
+You must bring your subject matter expertise to judge quality, verify facts, and ensure the output actually solves your intended problem.
+
+If you don't know enough about a topic to spot a wrong answer, either:
+- Learn more with traditional means and/or use AI to boostrap you
+- Go directly to authoritative sources
+- Use AI with extra skepticism
 
 ### The Evaluation Process
 
@@ -527,6 +610,8 @@ AI generates content fast - much faster than you can thoroughly review it. This 
 
 This is not different from reviewing a colleague's work, but AI's speed and volume can make this process a little tougher.
 
+Don't let AI replace your skill in finding and evaluating information. You need those skills to evaluate AI's outputs.
+
 ### The Feedback Loop
 
 When you find problems:
@@ -540,6 +625,7 @@ Note what was missing from your prompt that led to the problem. Next time you ha
 
 **4. Iterate:**
 AI is excellent at exploring variations. Use that strength.
+
 
 ---
 
