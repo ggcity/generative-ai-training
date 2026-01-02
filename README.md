@@ -211,8 +211,8 @@ Disclose AI use when transparency serves public interest, promotes trust, or ena
 
 1. **Do I understand the task well enough to evaluate the output?**
    - If no: Learn the task manually first, then consider AI assistance
-   - You can also use AI to boostrap your knowledge, but, as always, cross reference the information using traditional methods such as training, colleagues, official publications and use your own judgement
-   - It will require your subject matter expertiese to properly judge quality of AI output
+   - You can also use AI to bootstrap your knowledge, but, as always, cross reference the information using traditional methods such as training, colleagues, official publications and use your own judgement
+   - It will require your subject matter expertise to properly judge quality of AI output
 
 2. **Does this task involve sensitive data?**
    - If yes: Do I have required approvals? If no, don't use AI
@@ -287,6 +287,8 @@ Warning signs that your "quick question" actually needs more of your attention:
 
 If you have a straight forward query that you would already know where to get authoritative answers to, consider going straight to the source instead.
 
+For example:
+
 **For code/policy/procedure questions:**
 - Check municipal code
 - Check administrative regulations (intranet)
@@ -301,6 +303,8 @@ If you have a straight forward query that you would already know where to get au
 
 
 ## 7. Effective Prompting for More Involved Tasks
+
+When casual queries become consequential decisions, shift to this structured approach.
 
 **An effective prompt for a more complex issue includes:**
 
@@ -547,7 +551,62 @@ If a conversation has gone off track, sometimes starting a new conversation with
 
 ---
 
-## 7. Evaluating AI Output
+## 7B. Making AI Push Back
+
+### Why This Matters
+
+AI systems are designed to be agreeable. They are designed to help, answer your questions, and give you what you asked for, even if it's not true or without telling you if a topic is contentious. That may be fine for casual tasks. For consequential decisions, it can be a problem.
+
+We need to "remind" the AI not to be overly agreeable with our queries and to surface bias and controversies for complex topics. Just like a good friend who might question a wrong assumption you have about a topic.
+
+The risk of "helpful" AI:
+
+- It won't question flawed premises in your question
+- It smooths over disagreement and complexity
+- It gives you the answer you implied you wanted
+- It prioritizes sounding confident over acknowledging uncertainty
+
+For important decisions like policy recommendations, budget analysis, major proposals going to Council, *you need AI to challenge your thinking, not just agree with it*.
+
+### The Solution
+
+You can combat this to a certain degree, while relizing that *no workaround can replace your own analysis, subject-matter expertise, and research*. 
+
+The following instructions will help and you can add them to any Gen AI that accepts custom instructions or you can paste it as part of a prompt:
+
+```
+PROCESS TRANSPARENCY REQUIREMENTS:
+- Show reasoning steps, not just conclusions
+- Identify which perspectives I considered and which I didn't
+- Flag areas of uncertainty explicitly
+- Explain what tradeoffs I made in framing my response
+
+SOURCE & TRAINING DISCLOSURE:
+- When citing information, specify: where it comes from, how recent it is, 
+  what perspectives it represents
+- Acknowledge knowledge cutoff and limitations
+
+FRICTION BY DESIGN:
+- Present competing viewpoints on contested topics
+- Highlight where experts disagree
+- Ask clarifying questions before giving definitive answers
+- Surface complexity rather than smoothing it over
+
+ANTI-VALIDATION MODE:
+- Don't affirm my premises just because I stated them
+- Point out logical inconsistencies or evidence gaps in my questions
+- Offer "here's why that might be wrong" alongside "here's the answer"
+- Distinguish between what I asked and what might actually serve me better
+
+INCENTIVE VISIBILITY:
+- When relevant, note how engagement optimization, computing costs, 
+  or content policies might shape my response
+- Flag when I'm defaulting to "safe" framings that avoid controversy
+- Identify whose values are embedded in how I frame issues
+```
+
+
+## 8. Evaluating AI Output
 
 ### Why Evaluation Matters
 
@@ -559,7 +618,7 @@ If a conversation has gone off track, sometimes starting a new conversation with
 You must bring your subject matter expertise to judge quality, verify facts, and ensure the output actually solves your intended problem.
 
 If you don't know enough about a topic to spot a wrong answer, either:
-- Learn more with traditional means and/or use AI to boostrap you
+- Learn more with traditional means and/or use AI to bootstrap you
 - Go directly to authoritative sources
 - Use AI with extra skepticism
 
