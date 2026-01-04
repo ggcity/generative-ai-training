@@ -325,7 +325,7 @@ Same with AI.
 
 ---
 
-### Questions to ask before using AI for a task**
+### Questions to ask before using AI for a task
 
 **1. Do I understand the task well enough to evaluate the output?**
 - If no: Learn the task manually first, then consider AI assistance
@@ -667,7 +667,7 @@ This approach helps you:
 Use role definitions to shape the lens and tone, not to add expertise:
 
 **Good role definitions:**
-- "You are a friendly coach" vs. "You are a critical code reviewer" - shapes the evaluation style
+- "You are a friendly colleague" vs. "You are a critical auditor" - shapes the evaluation style
 - "Approach this as a government IT manager focused on stability and compliance" - weights tradeoffs appropriately
 
 **What doesn't work:**
@@ -835,7 +835,7 @@ AI is excellent at exploring variations. Use that strength.
 
 ---
 
-## 8. Common Use Cases and Guidance
+## 9. Common Use Cases and Guidance
 
 ### Summarization
 **Good for:**
@@ -913,7 +913,279 @@ AI is excellent at exploring variations. Use that strength.
 
 ---
 
-## 9. Taking Responsibility for AI Usage
+## 10. AI Tools: Web Search, Projects, and Code Execution
+
+Modern AI platforms offer built-in tools that extend what they can do beyond just text generation. These tools are available in ChatGPT Enterprise, Claude for Work, and similar enterprise AI platforms. Understanding these tools helps you get better results for specific types of tasks.
+
+
+### Tool 1: Web Search
+
+**What it does:**
+Allows AI to search the internet in real-time for current information, rather than relying only on its training data (which has a cutoff date).
+
+**Grounding AI responses:**
+Web search is also valuable for "grounding" AI's responses - connecting its knowledge to real, current sources. This helps reduce hallucinations and provides verifiable citations for its claims.
+
+**When to use it:**
+- Current events or recent news
+- Recent policy changes or regulations
+- Current data or statistics (population figures, economic data)
+- Information that changes frequently (grant deadlines, program availability)
+- Checking if information is still current
+- Finding sources or citations
+- Verifying or grounding AI's claims with real sources
+
+Most of the time, today's GenAI will use web searches intelligently on its own.
+
+**When NOT to use it:**
+- Working with confidential or sensitive data you've provided (turn it OFF to prevent data exposure)
+
+
+**How to control it**
+
+Most enterprise AI tools you can turn this on and off. They are usually on by default now, but it may or may not use it unless you explicitly ask it to in your prompt. 
+
+**Reminders:**
+- Always verify important findings yourself - AI can misinterpret search results
+- Turn OFF web search when working with confidential data you've provided - AI may use that confidential data as part of the search term, which will then leak it to search engines and search result websites.
+
+---
+
+### Tool 2: Projects
+
+**What it does:**
+Creates a persistent virtual workspace where AI can access multiple documents, remember context across conversations, and maintain custom instructions specific to that project.
+
+**Note:** In ChatGPT, "Projects" and "Custom GPTs" can work together to achieve this.
+
+**When to use it:**
+- Working on extended initiatives that span multiple conversations
+- When you need AI to reference specific documents repeatedly
+- When you want consistent formatting or approach across related work
+- When you want to define and reuse specific context
+- Collaborative work where multiple people need access to the same AI context
+
+#### Examples
+
+##### Example 1: Council Staff Report Project
+```
+Project Name: "City Council Staff Reports"
+
+Upload to project:
+- Staff report template
+- 3-5 example reports from past year
+- City's style guide
+- Standard fiscal impact language
+
+Custom instructions for project:
+"When drafting staff reports, follow the City of Garden Grove template format. Use 
+professional but accessible language appropriate for Council. Always include Issue, 
+Background, Discussion, Fiscal Impact, and Recommendation sections. Fiscal Impact 
+section should specify funding source and account numbers as placeholders for me to 
+fill in."
+```
+
+**Usage:** Every time you need a staff report draft, work in this project. AI will 
+automatically follow your format and style without you repeating instructions.
+
+---
+
+##### Example 2: Budget Analysis Project
+```
+Project Name: "FY 2024-25 Budget Analysis"
+
+Upload to project:
+- Current year budget documents
+- Mid-year financial reports
+- Department strategic plans
+- Prior year comparison data
+
+Custom instructions:
+"When analyzing budget data, always compare to prior year and explain variances. 
+Identify trends across multiple years when possible. Flag items that exceed 10% 
+variance. Use Garden Grove's standard account structure in all references."
+```
+
+**Usage:** All budget-related questions and analysis happen in this project, with AI able 
+to reference all uploaded budget documents without you re-uploading each time. You can also share this project accross your department to use the same knowledge base.
+
+---
+
+##### Example 3: Capital Improvement Project Management
+```
+Project Name: "Parks Capital Projects 2024-26"
+
+Upload to project:
+- Project plans and scopes for all active park projects
+- Community engagement feedback
+- Budget allocations
+- Grant requirements and deadlines
+
+Custom instructions:
+"Track all park capital projects. When discussing any project, reference its current 
+status, budget, timeline, and any grant requirements. Flag projects approaching 
+deadlines or budget concerns."
+```
+
+**Usage:** Update project status, draft updates to Council, check grant compliance - all 
+within one project where AI knows all the context.
+
+
+---
+
+##### Example 4: Policy Development Project
+```
+Project Name: "Short-Term Rental Regulations"
+
+Upload to project:
+- Research on other cities' STR ordinances
+- Public comment summaries
+- Legal memo from City Attorney
+- Draft ordinance language
+- Planning Commission feedback
+
+Custom instructions:
+"When drafting or revising STR policy language, reference concerns raised in public 
+comments and Planning Commission feedback. Ensure consistency with legal guidance 
+from City Attorney. Compare approaches to what other cities have done."
+```
+
+**Usage:** Iterative policy development across multiple work sessions, with AI 
+maintaining context of all feedback and legal considerations.
+
+---
+
+**Best practices for Projects:**
+- Name projects clearly and specifically, some GenAI system will allow you to add description as well
+- Only upload documents relevant to that specific project
+- Update project documents as work evolves
+- Set clear custom instructions so AI knows your preferences
+- Remove outdated documents to avoid confusion
+
+---
+
+### Tool 3: Code Execution and Data Analysis
+
+**What it does:**
+AI can write and run code to perform calculations, analyze data, create visualizations, manipulate files, and process structured information.
+
+**Why use code for calculations:**
+GenAI sometimes struggles with "mental math" - complex arithmetic or multi-step calculations done directly in text. When you need reliable calculations, ask AI to write and execute code instead. This ensures accuracy and shows you the exact steps taken.
+
+**Beyond analysis - Interactive apps:**
+Code execution also enables AI to create interactive tools and applications. For example, AI can build a simple web-based calculator for fee schedules, an interactive budget scenario planner, or a data visualization dashboard that updates based on user inputs.
+
+**When to use it:**
+- Analyzing data from spreadsheets or CSV files
+- Creating charts and visualizations
+- Complex calculations or statistical analysis
+- Processing large datasets
+- Converting between file formats
+- Cleaning or restructuring data
+- Building simple interactive tools or calculators
+
+**When NOT to use it:**
+- With confidential data - this tool may install other third-party application to assist with your request and those tools may be malicious (see below)
+- When a simple spreadsheet would work just as well
+
+---
+
+**CRITICAL: Data Sensitivity Warning**
+
+When AI executes code on your data, be aware:
+- **Code may use external libraries or packages** that connect to outside services
+- **Data could be processed through third-party tools** embedded in the code
+- **Some operations might require internet connectivity** to function
+- **Error in application might expose data** in logs or error messages
+
+**Best practice:** Only use code execution with non-confidential data. Treat this with extra care around sensitive data.
+
+---
+
+#### Example: Recreation program attendance analysis
+```
+[Upload attendance data from recreation programs]
+
+I need to calculate:
+1. Average attendance per program
+2. Participation rates by age group
+3. Programs with declining vs. growing enrollment
+4. Cost per participant by program
+
+Create a comparison table and charts I can include in budget justification.
+
+Please write code to perform these calculations.
+```
+
+**AI will:** Write code to read your data, calculate metrics, create comparison tables, generate visualizations, and format results for your report.
+
+---
+
+#### Example: Interactive app - Fee calculator
+```
+Create an interactive calculator for our recreation program fees that:
+- Takes program name and participant age as inputs
+- Applies resident vs. non-resident pricing
+- Applies senior/youth discounts based on age
+- Shows breakdown of base fee + applicable discounts
+- Calculates total amount due
+
+Use our current fee schedule:
+- Youth programs (under 18): $50 base, $10 resident discount
+- Adult programs: $75 base, $15 resident discount  
+- Senior programs (65+): $40 base, $15 resident discount
+- Non-resident surcharge: +50% of base fee
+```
+
+**AI will:** Create an interactive web-based tool you can use at the front desk or share with staff. Users input program and age, the calculator shows the fee breakdown in real-time.
+
+---
+
+**Best practices for code execution:**
+- Double-check calculations, especially for financial data
+- Provide clean, well-organized data files when possible
+- Clearly specify what calculations or analysis you need
+- Request visualizations appropriate for your audience (Council vs. technical staff)
+- Save the generated charts, tables, or interactive tools for your use - programs created by AI are not persistent, they will start fresh every time you leave it and come back
+- If AI's first attempt isn't quite right, ask it to revise the code
+- **Only use with non-confidential data**
+
+---
+
+**Important notes:**
+- AI writes the code and runs it in a secure environment
+- You don't need to know how to code to use this effectively
+- You can ask AI to explain what the code does in plain English
+- Always verify results
+- Works best with structured data (spreadsheets, CSV files, databases)
+
+---
+
+### Combining Tools
+
+These tools can work together for more powerful results:
+
+**Example: Grant research and tracking**
+1. **Web search:** Find currently available grants
+2. **Projects:** Create a grant tracking project with requirements and deadlines
+3. **Code execution:** Analyze your budget data to see what matches grant criteria
+
+---
+
+### Key Takeaway
+
+These tools extend AI's capabilities beyond text generation:
+- **Web search** connects AI to current information and grounds responses in verifiable sources
+- **Projects** give AI persistent memory and context across multiple work sessions
+- **Code execution** enables reliable quantitative analysis, data processing, and interactive tools
+
+Use them strategically based on your task needs, always with human oversight and verification.
+
+
+---
+
+
+## 11. Taking Responsibility for AI Usage
 
 Before and after using AI for any task, consider:
 
@@ -947,7 +1219,7 @@ Before and after using AI for any task, consider:
 
 ---
 
-## 10. Safety and Security Practices
+## 12. Safety and Security Practices
 
 ### Checking Citations and References
 When AI provides sources, citations, or references:
@@ -979,7 +1251,7 @@ Up and coming advancement in GenAI is Agentic AI. These systems can do tasks on 
 
 ---
 
-## 11. Administrative Considerations
+## 13. Administrative Considerations
 
 ### Account Management
 - IT will provision your account when you need AI access
