@@ -284,16 +284,18 @@ Use AI with understanding that it is **not objective or free of bias**
 
 **AI is sophisticated pattern matching:**
 
-1. Trained on massive amounts of text
+1. Trained on massive amounts of data (text, images, videos)
 2. Learned statistical patterns in how words follow each other
 3. Predicts most likely next word, then next, then next
 4. Does this thousands of times per second
 
-**Analogy:** If you've read thousands of staff reports, you recognize patterns and could draft one on an unfamiliar topic. AI does this but has "read" millions of documents.
+**Analogy:** If you've read thousands of staff reports, you recognize patterns and could draft one on an unfamiliar topic. AI does this but has "read" millions of documents and can spit out words really fast.
 
 ---
 
 ## Why It Seems Capable
+
+<div style="columns: 2">
 
 **Patterns AI learned:**
 - How arguments are constructed
@@ -308,16 +310,27 @@ Use AI with understanding that it is **not objective or free of bias**
 - Explaining concepts
 - Analyzing data
 - Generating variations
+</div>
 
 ---
 
 ## What AI Fundamentally Cannot Do
 
-1. **No real understanding** - recognizes patterns about building codes, doesn't understand why they exist
+1. **No real understanding** - Example: recognizes patterns about building codes, doesn't understand why they exist or what makes structure safe
 2. **No judgment or values** - can't determine if policy is ethical or fair
 3. **No accountability** - no consequences when wrong
 4. **No connection to current reality** - knowledge cutoff date, doesn't know yesterday's Council meeting
-5. **No expertise or experience** - has seen inspections described, hasn't conducted them
+5. **No expertise or experience** - Example: has seen inspections described, hasn't conducted them. Can provide best practices, but hasn't learned from failures. No "feel" for when something's "off".
+
+---
+
+## You remain essential
+- You understand the actual context and constraints
+- You provide judgment, ethics, and accountability  
+- You connect its outputs to real circumstances
+- You bring expertise AI can only approximate
+
+**Understanding how GenAI works will allow you know how much to trust it, know its limitations, use it effectively as a tool and not treat it as an oracle.**
 
 ---
 
@@ -329,8 +342,10 @@ Use AI with understanding that it is **not objective or free of bias**
 - Critical thinking
 - Ethics and equity
 - Subject matter expertise
+- Creativity and vision
 - Accountability
 - Context understanding
+- Connection to current reality
 - Common sense
 
 **AI provides:**
@@ -340,19 +355,16 @@ Use AI with understanding that it is **not objective or free of bias**
 - Format conversion
 - Exploring variations
 - Repetitive tasks
-
+- Answers and how-tos
 </div>
 
-**Think of AI as:** A capable intern who's read everything but experienced nothing
 
 ---
 
-## When to Use AI
-
-**Questions to ask:**
+## Questions to ask before using AI for a task
 
 1. **Do I understand the task well enough to evaluate output?**
-   - If no: Learn manually first, then consider AI
+   - If no: Learn manually first, then consider AI to augment you
 
 2. **Does this involve sensitive data?**
    - If yes: Do I have required approvals?
@@ -362,7 +374,7 @@ Use AI with understanding that it is **not objective or free of bias**
 
 ---
 
-# Casual vs. Involved Usage
+# 6. Everyday Casual Queries
 
 ---
 
@@ -373,25 +385,29 @@ Use AI with understanding that it is **not objective or free of bias**
 - Fast answers
 - Move on
 
-**This section:** When casual is fine, when you need more rigor
+**Totally fine!** But recognize when to apply more rigor.
 
 ---
 
 ## How AI Differs from Search Engines
 
-### Search Engines (Google, Bing)
+<div style="columns: 2">
+
+**Search Engines (Google, Bing)**
 - Shows multiple sources
+- You see who's saying what
 - You evaluate credibility
 - See competing perspectives
 - Links to original sources
 
-### AI Tools (ChatGPT, Claude)
+**AI Tools (ChatGPT, Claude)**
 - Synthesizes one answer
-- Sources hidden unless you ask
+- Sources hidden even if you ask
 - AI pre-selected what's credible
 - Disagreements smoothed over
 
----
+</div>
+
 
 ### Why this matters
 With search, you're doing the evaluation work yourself. With AI, the evaluation already happened invisibly. Sometimes that's fine. Sometimes it's risky.
@@ -403,7 +419,7 @@ With search, you're doing the evaluation work yourself. With AI, the evaluation 
 **Appropriate for:**
 - Definitions and explanations
 - Format conversions
-- Basic how-to questions
+- Basic how-to questions, something you can verify right away
 - Grammar and translation checks
 - Brainstorming starting points
 
@@ -413,7 +429,7 @@ With search, you're doing the evaluation work yourself. With AI, the evaluation 
 
 ## When Casual Becomes Involved
 
-**Warning signs:**
+**Warning signs your "quick questions" needs more attention**
 
 - Answer will go in a document others will read
 - You're making a decision based on the answer
@@ -421,11 +437,11 @@ With search, you're doing the evaluation work yourself. With AI, the evaluation 
 - Policy interpretation or legal requirements
 - Money or safety implications
 
-**When you see these signs:** Shift to rigorous approach
+**When you feel you're in this territory:** Shift to rigorous approach
 
 ---
 
-## Consider Traditional Methods First
+## Also Consider Traditional Methods
 
 **For code/policy/procedure questions:**
 - Check municipal code
@@ -439,7 +455,7 @@ With search, you're doing the evaluation work yourself. With AI, the evaluation 
 
 ---
 
-# Effective Prompting for Involved Tasks
+# 7. Effective Prompting for Involved Tasks
 
 ---
 
@@ -457,7 +473,7 @@ When casual becomes consequential, include:
 
 ---
 
-## Advanced Techniques
+## Advanced Techniques (1 of 2)
 
 **Extended thinking/reasoning:**
 - Ask AI to show reasoning process
@@ -473,7 +489,21 @@ When casual becomes consequential, include:
 
 ---
 
-## Making AI Push Back
+## Advanced Techniques (2 of 2)
+
+**Defining roles and perspective**
+- Use roles to shape focus and tone, not to add expertise
+
+**Know when to start fresh**
+- If a conversation has gone off track, starting a new conversation with a better prompt often works better than multiple corrections within the same conversation.
+
+---
+
+# 7B. Making AI Push Back
+
+---
+
+## Why this matters
 
 **The problem:** AI is designed to be agreeable
 
@@ -489,24 +519,31 @@ When casual becomes consequential, include:
 
 ---
 
-# Evaluating AI Output
+# 8. Evaluating AI Output
 
 ---
 
 ## Why Evaluation Matters
 
+<div style="columns: 2">
+
 **The temptation:**
-- AI produces impressive content quickly
+- AI produces impressive-looking content quickly
+- "It was right last time, why wouldn't it be right again?"
 - Easy to accept as-is
+
 
 **The risk:**
 - AI can be confidently wrong
-- Generates to be helpful, not necessarily accurate
+- Generates to feel helpful, not necessarily accurate
 
 **The requirement:**
 - You must verify facts
 - You must ensure quality
+- You must ensure ethical
 - You must apply subject matter expertise
+
+</div>
 
 ---
 
@@ -551,7 +588,21 @@ When casual becomes consequential, include:
 
 ---
 
-# Common Use Cases
+## The Loop
+
+When you find something wrong and not to your liking, keep working with AI to narrow it down:
+- Specify what's wrong and why
+- Provide examples of improvement
+- Try different approaches
+
+**Then verify again**
+
+
+If you think AI is getting off track, ask it to write a summary prompt for you to start over in a new chat
+
+---
+
+# 9. Common Use Cases and Guidance
 
 ---
 
@@ -559,9 +610,9 @@ When casual becomes consequential, include:
 
 **Good for:** Meeting notes, long documents, email threads
 
-**Watch out for:** May misidentify key points, miss context
+**Watch out for:** May misidentify key points, miss context or subtext (limited attention)
 
-**Best practice:** Use summary as preview, not replacement
+**Best practice:** Use summary as preview, not substitute for understanding
 
 ---
 
@@ -581,7 +632,7 @@ When casual becomes consequential, include:
 
 **Watch out for:** Generic language, loss of your voice, skill atrophy
 
-**Best practice:** AI as intern who drafts but needs your expertise to finalize
+**Best practice:** Think of AI as intern who drafts but needs your expertise to finalize
 
 ---
 
@@ -605,7 +656,267 @@ When casual becomes consequential, include:
 
 ---
 
-# Taking Responsibility
+# 10. AI Tools: Web Search, Projects, and Code Execution
+
+---
+
+## Built-in AI Tools
+
+**Modern enterprise AI platforms include:**
+1. Web Search
+2. Projects
+3. Code Execution / Data Analysis
+
+**These tools extend AI beyond text generation**
+
+Understanding them helps you get better results for specific tasks
+
+---
+
+## Tool 1: Web Search
+
+---
+
+## Web Search
+
+**What it does:**
+- Searches internet in real-time for current information
+- Connects AI's knowledge to real, verifiable sources
+- "Grounds" AI responses to reduce hallucinations
+
+**When to use it:**
+- Current events or recent news
+- Recent policy/regulation changes
+- Current data or statistics
+- Information that changes frequently
+- Verifying or grounding AI's claims
+
+---
+
+## Web Search: Controls and Warnings
+
+**CRITICAL WARNING:**
+- Turn OFF web search when working with confidential data
+- AI may use confidential data as search terms
+- This leaks data to search engines and websites
+
+**How to control:**
+- Most enterprise tools let you toggle on/off
+- Usually on by default
+- May need to explicitly ask AI to activiate it even if feature is enabled
+
+---
+
+## Tool 2: Projects
+
+---
+
+
+**What it does:**
+- Creates persistent virtual workspace
+- AI accesses multiple documents across conversations
+- Maintains custom instructions specific to project
+- Remembers context accross converstaions
+
+**When to use it:**
+- Extended initiatives spanning multiple conversations
+- Need AI to reference specific documents repeatedly
+- Want consistent formatting across related work
+- Want to define and reuse specific context
+- Collaborative work with shared AI context
+
+---
+
+## Project Setup Strategy
+
+<div style="columns: 2;">
+
+**What to upload:**
+- Templates and examples
+- Reference documents
+- Style guides
+- Standard language
+
+**Custom instructions:**
+- Define format preferences
+- Set tone and style
+- Specify constraints
+- Establish workflow
+- Describe context
+
+</div>
+
+
+---
+
+## Project Examples
+
+**See training manual for detailed setups:**
+
+1. **Council Staff Reports Project**
+   - Templates, examples, style guide uploaded
+   - Consistent formatting across all reports
+
+2. **Budget Analysis Project**
+   - Current/prior year budgets, strategic plans
+   - All analysis references same data
+
+3. **Policy Development Project**
+   - Research, comments, legal memos, drafts
+   - Maintain context through iterations
+
+---
+
+## Project Best Practices
+
+- Name projects clearly and specifically
+- Only upload relevant documents
+- Update documents as work evolves
+- Set clear custom instructions
+- Remove outdated documents
+- Share projects across department when working together
+
+---
+
+## Tool 3: Code Execution
+
+---
+
+## Code Execution and Data Analysis
+
+**What it does:**
+- AI writes and runs code to perform tasks
+- Analyzes data, creates visualizations
+- Performs calculations, manipulates files
+- Processes structured information
+- Creates interactive tools and applications
+
+**Why use code for calculations:**
+- GenAI struggles with complex "mental math"
+- Provides reliable calculations
+
+---
+
+## Interactive Apps
+
+**Code execution creates interactive tools and applications:**
+
+- Web-based fee schedule calculators
+- Interactive budget scenario planners  
+- Data visualization dashboards that update based on user inputs
+
+**AI builds the tool, you use it directly - no coding knowledge required**
+
+---
+
+## Code Execution: Use Cases
+
+<div style="columns: 2;">
+
+**Data analysis:**
+- Spreadsheet/CSV analysis
+- Charts and visualizations
+- Statistical analysis
+- Large dataset processing
+- Format conversions
+- Data cleaning
+
+**Interactive tools:**
+- Fee calculators
+- Budget scenario planners
+- Data dashboards
+- Custom web-based tools
+
+</div>
+
+---
+
+## CRITICAL: Data Sensitivity Warning
+
+**When AI executes code on your data:**
+- Code may use external libraries connecting to outside services
+- Data could be processed through third-party tools
+- Some operations require internet connectivity
+- Errors might expose data in logs
+
+**Best practice:**
+- **Only use code execution with non-confidential data**
+- Treat with extra care around sensitive information
+
+---
+
+## Code Execution Best Practices
+
+- Double-check calculations, especially financial data
+- Provide clean, well-organized data files
+- Clearly specify needed calculations or analysis
+- Request visualizations appropriate for audience
+- Save generated charts/tables/tools (not persistent)
+- Ask AI to revise if first attempt isn't right
+- Request plain English explanation of code
+- Always verify results
+- When a simple spreadsheet would work just as well, probably skip this tool
+
+**You don't need to know how to code to use this effectively**
+
+---
+
+## Code Execution Examples
+
+**See training manual for detailed examples:**
+
+**Recreation program attendance analysis:**
+- Calculate averages, participation rates
+- Identify trends
+- Generate comparison tables and charts
+
+**Interactive fee calculator:**
+- Takes program and age as input
+- Applies discounts automatically
+- Shows fee breakdown in real-time
+
+---
+
+## Combining Tools
+
+
+**Example: Grant research and tracking**
+
+1. **Web search:** Find currently available grants
+2. **Projects:** Create grant tracking project with requirements and deadlines
+3. **Code execution:** Analyze budget data to match grant criteria
+
+**Strategic combination produces more powerful results**
+
+---
+
+## Key Takeaway: AI Tools
+
+<div style="columns: 2;">
+
+**Web Search:**
+- Connects to current information
+- Grounds responses in verifiable sources
+- Turn OFF for confidential work
+
+**Projects:**
+- Persistent memory and context
+- Consistent approach across work
+- Shared knowledge base
+
+</div>
+
+**Code Execution:**
+- Reliable quantitative analysis
+- Data processing and visualization
+- Interactive tools
+- Only use with non-confidential data
+
+**Always with human oversight and verification**
+
+---
+
+# 11. Taking Responsibility for AI Usage
 
 ---
 
@@ -656,41 +967,48 @@ When casual becomes consequential, include:
 
 ---
 
-# Safety and Security
+# 12. Safety and Security Practices
 
 ---
 
 ## Safety Practices
 
+<div style="columns: 2">
+
 **Checking citations:**
 - Be cautious with URLs - some may be malicious
-- Don't provide personal data when checking references
+- Don't provide personal data when checking citations
 - Cross-check against authoritative sources
+
+.
 
 **Disable web search for sensitive work:**
 - Turn OFF when working with confidential data you've provided
 - Reduces risk of data exposure
 
 **AI Agents:**
-- Screen sharing with AI system
+- Like screen sharing with AI system
 - Take extra precautions
 - Avoid sharing credentials
 
+
+</div>
+
 ---
 
-## AI Tools to Avoid
+## AI Tools to Avoid (Professionally and personally)
 
 **Avoid entirely:**
-- **Perplexity:** Known security vulnerabilities, monetizes data
+- **Perplexity:** Known security vulnerabilities, monetizes your data
 - **DeepSeek, Qwen, Doubao, Ernie:** Data jurisdiction concerns (China)
-- **Meta AI, X Grok:** Designed to monetize your data
+- **Meta AI, X Grok:** Designed to monetize your data like parent platforms
 - **Any free-tier generative AI for work**
 
 **Why:** No contractual protections, may train on your data, unclear data handling
 
 ---
 
-# Administrative
+## 13. Administrative Considerations
 
 ---
 
@@ -708,7 +1026,6 @@ When casual becomes consequential, include:
 **Questions?**
 - Contact IT helpdesk
 - Training manual on intranet
-- Submit policy feedback to IT
 
 ---
 

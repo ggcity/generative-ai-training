@@ -1070,7 +1070,7 @@ maintaining context of all feedback and legal considerations.
 AI can write and run code to perform calculations, analyze data, create visualizations, manipulate files, and process structured information.
 
 **Why use code for calculations:**
-GenAI sometimes struggles with "mental math" - complex arithmetic or multi-step calculations done directly in text. When you need reliable calculations, ask AI to write and execute code instead. This ensures accuracy and shows you the exact steps taken.
+GenAI sometimes struggles with "mental math" - complex arithmetic or multi-step calculations done directly in text. When you need reliable calculations, ask AI to write and execute code instead. 
 
 **Beyond analysis - Interactive apps:**
 Code execution also enables AI to create interactive tools and applications. For example, AI can build a simple web-based calculator for fee schedules, an interactive budget scenario planner, or a data visualization dashboard that updates based on user inputs.
