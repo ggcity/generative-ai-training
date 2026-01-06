@@ -16,6 +16,7 @@ Generative AI tools are already in use across city departments - often informall
 - Garden Grove's policy and why it exists
 - Risks specific to GenAI
 - Practical guidelines for using AI responsibly and effectively
+- Your responsibilities
 - Example scenarios
 
 ---
@@ -69,9 +70,10 @@ Different AI platforms have different privacy policies. Some explicitly monetize
 - Accidental sharing through conversation history
 - Using personal/free accounts that have weaker protections
 - Malicious software GenAI uses to compute your queries
+- Malicious search results or citations
 
 ### Bias / Discrimination
-AI systems have no judgment, compassion, or reflection - they follow patterns in their training data. If the training data reflects human biases, the AI amplifies them.
+AI systems have no judgment, compassion, or reflection - they follow patterns in their training data. If the training data reflects human biases, AI could potentially amplifies them.
 
 **Examples:**
 - Prescreening job applicants may discriminate against certain protected classes
@@ -91,6 +93,7 @@ Excessive dependence on AI for tasks requiring human judgment leads to complacen
 - Staff stops developing expertise needed to evaluate AI outputs
 - "The AI said so" becomes accepted justification
 - Loss of institutional knowledge as shortcuts replace learning
+- Critical thinking skills decline
 
 ### Misuse / Over-confidence
 Users may deliberately misuse AI to circumvent established procedures, or place excessive trust in AI recommendations for critical decisions.

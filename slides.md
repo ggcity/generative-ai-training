@@ -19,10 +19,10 @@ paginate: true
 
 **What's at stake:**
 - Decisions depend on accurate information
+- Public trust depends on transparent communications
 - Public Records Act may apply to AI content
 - Data breaches with PII create legal harm
-- AI outputs can embed biases affecting residents
-- Public trust depends on transparent communications
+- AI outputs can embed biases that affect decisions
 
 ---
 
@@ -66,7 +66,7 @@ GenAI is designed for creative and novel content generation, not necessarily fac
 
 # 3. Understanding the Risks
 
-Risks not unique to AI, but can be easily overlooked
+Risks not unique to GenAI, but can be easily overlooked
 
 ---
 
@@ -101,6 +101,7 @@ Risks not unique to AI, but can be easily overlooked
 - Accidental sharing via history
 - Personal/free accounts
 - Malicious software in AI tools
+- Malicious search sources
 
 </div>
 
@@ -108,7 +109,8 @@ Risks not unique to AI, but can be easily overlooked
 
 ## Bias / Discrimination
 
-**Examples:**
+AI has no judgment, compassion, or reflection. They follow existing biases patterns in training data and potentially amplifies them.
+
 - Job applicant screening may discriminate
 - Budget recommendations may underserve neighborhoods
 - Enforcement prioritization may reflect existing disparities
@@ -118,12 +120,6 @@ Risks not unique to AI, but can be easily overlooked
 - Training data overrepresents certain perspectives
 - AI systems designed to be agreeable
 - No built-in fairness or equity mechanism
-
----
-
-## Bias / Discrimination (Part 2)
-### Key point:
-AI has no judgment, compassion, or reflection. They follow existing biases patterns in training data and potentially amplifies them
 
 ---
 
@@ -146,8 +142,8 @@ Users may deliberately misuse AI to circumvent established procedures, or place 
 **Examples:**
 - AI-generated firewall config creates vulnerabilities
 - Submitting AI staff reports without fact-checking
-- Using AI to find ways around procurement rules
 - Accepting AI legal interpretation without attorney review
+- Using AI to find ways around procurement rules
 
 ---
 
