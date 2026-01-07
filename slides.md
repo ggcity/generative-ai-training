@@ -61,6 +61,35 @@ paginate: true
 
 GenAI is designed for creative and novel content generation, not necessarily factual or accurate content. This makes it powerful for brainstorming and drafting, but can be risky for decision-making and factual reporting if not grounded or double checked.
 
+---
+
+## Understanding Terms (1 of 2)
+
+**Prompt:** Your input to the AI
+- Text you type (questions, instructions, context)
+- Files you upload (documents, spreadsheets, images)
+- Features you enable (web search, code execution)
+
+**Output:** AI's response to your prompt
+- Generated text, analysis, or recommendations
+- Created visualizations or calculations
+- Drafted documents or revised content
+
+**Think of it as:** You provide the prompt → AI processes → AI delivers output
+
+---
+
+## Understanding Terms (2 of 2)
+
+**Context:** Information AI remembers within a conversation
+- What you've discussed earlier in the same chat
+- Gets "forgotten" when you start a new conversation
+
+**Training data:** The massive collection of text AI learned from
+- Books, websites, documents AI was trained on
+- Determines what patterns AI recognizes
+
+**Think of it as:** You provide the prompt → AI processes → AI delivers output
 
 ---
 
@@ -155,7 +184,7 @@ Users may deliberately misuse AI to circumvent established procedures, or place 
 
 **Foundation:** AR 2.11 (Computer Systems) + AR 2.16 (Cloud Computing)
 
-**Core principle:** Generative AI is a cloud computing service with additional protections due to unique risks
+**Core principle:** Generative AI is a cloud computing service with additional protections due to specific risks
 
 **Key message:** These aren't new restrictions - they extend existing policies you already follow
 
@@ -1001,27 +1030,6 @@ Understanding them helps you get better results for specific tasks
 - **Any free-tier generative AI for work**
 
 **Why:** No contractual protections, may train on your data, unclear data handling
-
----
-
-## 13. Administrative Considerations
-
----
-
-## Account Management & Support
-
-**Getting access:**
-- IT provisions your account
-- Request through IT helpdesk
-- Don't create your own
-
-**Need different tool?**
-- Submit request to IT with use case
-- IT evaluates: security, privacy, cost
-
-**Questions?**
-- Contact IT helpdesk
-- Training manual on intranet
 
 ---
 

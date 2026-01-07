@@ -114,7 +114,7 @@ The policy builds on existing regulations you already follow:
 - **AR 2.11**: Computer System Policies and Procedures
 - **AR 2.16**: Cloud Computing Services Policy
 
-**Key principle:** Generative AI is treated as a cloud computing service with additional specific protections due to unique risks.
+**Key principle:** Generative AI is treated as a cloud computing service with additional specific protections due to specific risks.
 
 ### Requirements
 
@@ -179,7 +179,6 @@ Disclose AI use when transparency serves public interest, promotes trust, or ena
 **Disclosure language should be:**
 - Clear and concise
 - Prominently placed or conveyed
-- Be specific about what AI was used for
 
 **7. Public Records and Retention**
 - **Assume AI conversations and outputs are subject to California Public Records Act**
