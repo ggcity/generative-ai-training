@@ -39,7 +39,48 @@ Generative AI tools are already in use across city departments - often informall
 
 **Critical distinction:** GenAI is designed for creative and novel content generation, not necessarily factual or accurate content. This makes it powerful for brainstorming and drafting, but can be risky for decision-making and factual reporting if not grounded or double checked.
 
+## 2B. Understanding Key Terms
+
+Before diving deeper, let's clarify some terms you'll encounter when working with AI:
+
+### Prompt
+Your prompt is everything you provide to the AI system:
+- **Text you type:** Questions, instructions, background context, constraints
+- **Files you upload:** Documents, spreadsheets, images, data files
+- **Features you enable:** Web search, code execution, project context
+
+**Think of a prompt as your assignment to the AI.** Just like briefing a colleague, the clearer and more complete your prompt, the better the result.
+
+### Output
+The AI's response to your prompt:
+- Generated text, analysis, or recommendations
+- Created visualizations, charts, or calculations  
+- Drafted documents or revised content
+- Code or interactive tools
+
+**The output is what the AI delivers back to you** - but remember, it's your responsibility to verify and refine it before use.
+
+### Context
+Information the AI remembers within a single conversation:
+- What you've discussed earlier in the same chat session
+- Files you've uploaded in that conversation
+- Instructions you've given during that session
+
+**Important limitation:** Context gets "forgotten" when you start a new conversation. The AI doesn't remember anything from your previous chats unless you're using a Project workspace (covered in later section) or a feature called "Memory".
+
+### Training Data
+The massive collection of information the AI learned from during its creation:
+- Books, websites, articles, documents, code repositories
+- Patterns in how humans write, reason, and structure information
+- Represents knowledge up to a specific cutoff date
+
+**Why this matters:** Training data determines what patterns the AI recognizes and what knowledge it has access to. It's also where potential biases originate - if biased perspectives were overrepresented in training data, the AI may reflect those biases.
+
 ---
+
+### The Basic flow
+You provide a **prompt** → AI draws on its **training data** and conversation **context** → AI generates an **output** → You verify and refine the output for your needs.
+
 
 ## 3. Understanding the Risks
 

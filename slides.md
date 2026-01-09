@@ -75,7 +75,6 @@ GenAI is designed for creative and novel content generation, not necessarily fac
 - Created visualizations or calculations
 - Drafted documents or revised content
 
-**Think of it as:** You provide the prompt → AI processes → AI delivers output
 
 ---
 
@@ -89,13 +88,13 @@ GenAI is designed for creative and novel content generation, not necessarily fac
 - Books, websites, documents AI was trained on
 - Determines what patterns AI recognizes
 
-**Think of it as:** You provide the prompt → AI processes → AI delivers output
+**The basic flow:** You provide a **prompt** → AI draws on its **training data** and conversation **context** → AI generates an **output** → You verify and refine the output for your needs.
 
 ---
 
 # 3. Understanding the Risks
 
-Risks not unique to GenAI, but can be easily overlooked
+Risks not specific to GenAI, but can be easily overlooked
 
 ---
 
