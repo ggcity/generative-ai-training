@@ -34,7 +34,6 @@ paginate: true
 - When and how to use AI effectively
 - Your responsibilities
 
-**Training manual:** Contains detailed examples and scenarios
 
 ---
 
@@ -100,7 +99,7 @@ Risks not specific to GenAI, but can be easily overlooked
 
 ## Hallucinations / Inaccurate Information
 
-**What it is:** AI confidently generates false information, fabricated citations, invented statistics
+**What it is:** AI *performs* confidence. It confidently generates false information, fabricated citations, invented statistics
 
 **Examples:**
 - Non-existent legal precedents in staff reports
@@ -151,6 +150,16 @@ AI has no judgment, compassion, or reflection. They follow existing biases patte
 
 ---
 
+## Misuse
+
+Users may deliberately misuse AI to circumvent established procedures
+
+**Examples:**
+- Using AI to find ways around procurement rules
+- Using AI to find justifications to award unqualified vendor
+
+---
+
 ## Overreliance / Skill Atrophy
 
 **The risk:**
@@ -158,20 +167,26 @@ AI has no judgment, compassion, or reflection. They follow existing biases patte
 - "The AI said so" becomes accepted justification
 - Loss of institutional knowledge
 - Critical thinking skills decline
+- Forget that there are other (perhaps more effective) methods out there
 
-**Your expertise remains essential.** Complacency and failure to critically evaulate AI output can be result of overreliance or skill atrophy.
+**Your expertise remains essential.** You must be the one able to check AI's output.
 
 ---
 
-## Misuse / Over-confidence
+## Complacency
 
-Users may deliberately misuse AI to circumvent established procedures, or place excessive trust in AI recommendations for critical decisions.
+Users place excessive trust in AI recommendations for critical decisions. 
 
-**Examples:**
+"It was right the last time, why wouldn't it be right again this time". 
+
+Supervising an "almost perfect" system is boring -> boredom -> complacency.
+**Term:** *Vigilance decrement*
+
+**Examples**
 - AI-generated firewall config creates vulnerabilities
 - Submitting AI staff reports without fact-checking
 - Accepting AI legal interpretation without attorney review
-- Using AI to find ways around procurement rules
+- Parallel example: Self-driving cars - Drives itself well for thousands of miles, until it doesn't
 
 ---
 
@@ -203,7 +218,7 @@ Users may deliberately misuse AI to circumvent established procedures, or place 
 
 **Why NOT others:**
 - Free versions may monetize your data
-- Tools like Perplexity, DeepSeek, Meta AI, and X Grok have documented security issues
+- Other tools have documented security issues
 </div>
 
 ---
@@ -293,7 +308,7 @@ Use AI with understanding that it is **not objective or free of bias**
 ## 7. Public Records and Retention
 
 **Key points:**
-- Assume AI conversations = subject to Public Records Act
+- AI conversations are subject to Public Records Act
 - Treat AI drafts like email drafts and working documents
 - No formal retention schedule yet (in development)
 - When in doubt: consult City Clerk
@@ -388,13 +403,23 @@ Use AI with understanding that it is **not objective or free of bias**
 ## Questions to ask before using AI for a task
 
 1. **Do I understand the task well enough to evaluate output?**
-   - If no: Learn manually first, then consider AI to augment you
+2. **Have I set aside time to double check AI output?**
+3. **Does this involve sensitive data?**
+4. **Does this require judgment, ethics, or accountability?**
 
-2. **Does this involve sensitive data?**
-   - If yes: Do I have required approvals?
+---
 
-3. **Does this require judgment, ethics, or accountability that AI can't provide?**
-   - Policy decisions, equity considerations, anything affecting rights/services
+## Consider Traditional Methods?
+
+**For code/policy/procedure questions:**
+- Check municipal code
+- Check admin regulations (intranet)
+- Ask supervisor or subject matter expert
+
+**For legal/regulatory questions:**
+- Consult City Attorney
+- Check official state/federal agency sites
+- Review actual statutes
 
 ---
 
@@ -465,27 +490,11 @@ With search, you're doing the evaluation work yourself. With AI, the evaluation 
 
 ---
 
-## Also Consider Traditional Methods
-
-**For code/policy/procedure questions:**
-- Check municipal code
-- Check admin regulations (intranet)
-- Ask supervisor or subject matter expert
-
-**For legal/regulatory questions:**
-- Consult City Attorney
-- Check official state/federal agency sites
-- Review actual statutes
-
----
-
 # 7. Effective Prompting for Involved Tasks
 
 ---
 
 ## Anatomy of an Effective Prompt
-
-When casual becomes consequential, include:
 
 1. **Task explanation:** What needs to be done
 2. **Context:** Background, constraints, purpose
@@ -493,7 +502,6 @@ When casual becomes consequential, include:
 4. **Format:** How output should be structured
 5. **Examples:** What good output looks like
 
-**See training manual for detailed prompt examples**
 
 ---
 
@@ -501,6 +509,7 @@ When casual becomes consequential, include:
 
 **Extended thinking/reasoning:**
 - Ask AI to show reasoning process
+- Helps get more thorough answers for consequential tasks
 - Helps catch AI heading in wrong direction
 
 **Breaking large tasks:**
@@ -516,7 +525,7 @@ When casual becomes consequential, include:
 ## Advanced Techniques (2 of 2)
 
 **Defining roles and perspective**
-- Use roles to shape focus and tone, not to add expertise
+- Use roles to shape focus and tone
 
 **Know when to start fresh**
 - If a conversation has gone off track, starting a new conversation with a better prompt often works better than multiple corrections within the same conversation.
@@ -531,15 +540,16 @@ When casual becomes consequential, include:
 
 **The problem:** AI is designed to be agreeable
 
-**For consequential decisions, you need AI to:**
+**For consequential decisions, you want AI to:**
 - Question flawed premises
 - Surface disagreement and complexity
-- Acknowledge uncertainty
+- Acknowledge uncertainty (best it can)
 - Challenge your thinking
 
 **Solution:** Custom instructions to combat agreeability
 - See training manual for full instructions
 - Helps surface bias and controversy
+- But maybe too verbose for some tasks
 
 ---
 
@@ -553,7 +563,7 @@ When casual becomes consequential, include:
 
 **The temptation:**
 - AI produces impressive-looking content quickly
-- "It was right last time, why wouldn't it be right again?"
+- "It was right last 50 times, why wouldn't it be right again?"
 - Easy to accept as-is
 
 
@@ -706,7 +716,7 @@ Understanding them helps you get better results for specific tasks
 **What it does:**
 - Searches internet in real-time for current information
 - Connects AI's knowledge to real, verifiable sources
-- "Grounds" AI responses to reduce hallucinations
+- "Grounds" AI responses and canj reduce hallucinations
 
 **When to use it:**
 - Current events or recent news

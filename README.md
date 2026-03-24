@@ -87,7 +87,7 @@ You provide a **prompt** → AI draws on its **training data** and conversation 
 Generative AI systems are powerful, but also have unique risks.
 
 ### Hallucinations / Inaccurate Information
-GenAI confidently generates false information, fabricated citations, and invented statistics.
+AI *performs* confidence. It confidently generates false information, fabricated citations, and invented statistics.
 
 **Examples:**
 - Creating non-existent legal precedents for a staff report
@@ -128,22 +128,38 @@ AI systems have no judgment, compassion, or reflection - they follow patterns in
 - No built-in mechanism to question fairness or equity
 
 ### Overreliance / Skill Atrophy
-Excessive dependence on AI for tasks requiring human judgment leads to complacency and failure to critically evaluate outputs.
+Excessive dependence on AI for tasks requiring human judgment leads to failure to critically evaluate outputs.
 
 **Risks:**
 - Staff stops developing expertise needed to evaluate AI outputs
 - "The AI said so" becomes accepted justification
 - Loss of institutional knowledge as shortcuts replace learning
 - Critical thinking skills decline
+- Forgetting that there are other (perhaps more effective) methods out there
 
-### Misuse / Over-confidence
-Users may deliberately misuse AI to circumvent established procedures, or place excessive trust in AI recommendations for critical decisions.
+**Your expertise remains essential.** You must be the one able to check AI's output.
+
+### Misuse
+Users may deliberately misuse AI to circumvent established procedures.
+
+**Examples:**
+- Using AI to find ways around procurement regulations
+- Using AI to find justifications to award an unqualified vendor
+
+### Complacency
+Users place excessive trust in AI recommendations for critical decisions.
+
+> "It was right the last time, why wouldn't it be right again this time?"
+
+Supervising an "almost perfect" system is boring → boredom → complacency.
+
+**Term:** *Vigilance decrement*
 
 **Examples:**
 - AI-generated firewall configuration that creates security vulnerabilities
 - Submitting AI-generated staff report to Council without fact-checking
-- Using AI to find ways around procurement regulations
 - Accepting AI's legal interpretation without attorney review
+- Parallel: Self-driving cars drive themselves well for thousands of miles - until they don't
 
 ---
 
@@ -173,7 +189,7 @@ The policy builds on existing regulations you already follow:
 **Why NOT other tools:**
 - Copilot and Gemini Enterprise require ecosystem commitments we're not ready for
 - Free/consumer versions may use your data for training or monetization
-- Tools like Perplexity, DeepSeek, Qwen, Meta AI, and X Grok have documented security issues that are concerning to our usage or explicitly monetize user data
+- Other tools have documented security issues or data handling concerns (see Section 12 for specifics)
 
 **2. Account Requirements**
 - **Must use city-provisioned accounts only** - IT must create your account
@@ -222,7 +238,7 @@ Disclose AI use when transparency serves public interest, promotes trust, or ena
 - Prominently placed or conveyed
 
 **7. Public Records and Retention**
-- **Assume AI conversations and outputs are subject to California Public Records Act**
+- **AI conversations and outputs are subject to California Public Records Act**
 - We do not yet have a formal retention schedule for AI-generated content
 - Treat AI-generated drafts like you'd treat email drafts and other working documents
 - When in doubt, consult City Clerk's office
@@ -370,19 +386,36 @@ Same with AI.
 
 ### Questions to ask before using AI for a task
 
-**1. Do I understand the task well enough to evaluate the output?**
+1. **Do I understand the task well enough to evaluate the output?**
 - If no: Learn the task manually first, then consider AI assistance
 - You can also use AI to bootstrap your knowledge, but always cross-reference the information using traditional methods such as training, colleagues, official publications and use your own judgment
 - It will require your subject matter expertise to properly judge quality of AI output
 
-**2. Does this task involve sensitive data?**
+2. **Have I set aside time to double check AI output?**
+   - AI generates fast; don't let that speed pressure your review.
+
+3. **Does this involve sensitive data?**
 - If yes: Do I have required approvals? If no, don't use AI
 - Can I complete the task using anonymized data or abstraction or generalization? If yes, anonymize, or talk in abstracts
 
-**3. Does this task require judgment, ethics, or accountability that AI can't provide?**
+4. **Does this require judgment, ethics, or accountability?**
 - Policy decisions need human values and judgment
 - Equity considerations need human awareness of impact
 - Anything affecting people's rights or services needs human accountability
+
+### When to Consider Traditional Methods
+
+Before reaching for AI, consider whether a direct, authoritative source would serve you better:
+
+**For code/policy/procedure questions:**
+- Check municipal code
+- Check administrative regulations (intranet)
+- Ask supervisor or subject matter expert
+
+**For legal/regulatory questions:**
+- Consult City Attorney's office
+- Check official state/federal agency websites
+- Review actual statutes, not summaries
 
 ---
 
@@ -471,30 +504,13 @@ Warning signs that your "quick question" actually needs more of your attention:
 * It's about policy interpretation or legal requirements
 * Money or safety implications
 
-### When to consider traditional method before GenAI
-
-Traditional, manual research is still important and if you have a straight forward query that you would already know where to get authoritative answers to, consider going straight to the source instead.
-
-For example:
-
-**For code/policy/procedure questions:**
-- Check municipal code
-- Check administrative regulations (intranet)
-- Check department procedures
-- Ask supervisor or subject matter expert
-- Ask colleagues who do this regularly
-
-**For legal/regulatory questions:**
-- Consult City Attorney's office
-- Check official state/federal agency websites
-- Review actual statutes, not summaries
-
-
 ## 7. Effective Prompting for More Involved Tasks
 
-When casual queries become consequential decisions, shift to this structured approach.
+**Modern AI handles natural, conversational language very well.** You don't need to craft the perfect prompt on the first try - starting with a rough question and iterating is often just as effective. The key skill is knowing how to refine and course-correct as you go, not writing elaborate prompts upfront.
 
-**An effective prompt for a more complex issue includes:**
+That said, for complex or consequential tasks, a bit of structure helps you get a more useful first draft with less back-and-forth. Here's a helpful framework:
+
+**An effective prompt includes:**
 
 1. **Task explanation:** What needs to be done
 2. **Context:** Background information, constraints, purpose
@@ -562,125 +578,11 @@ Focus on Supplies category - that's the concerning one. Personnel and Contracts 
 
 ---
 
-#### Example 3: Building Code Interpretation (Building Safety)
-
-```
-Research fire sprinkler requirements for a proposed 3,200 sq ft restaurant in an existing commercial building at 456 Harbor Blvd.
-
-Context:
-- Building is 1987 construction, Group B occupancy, no sprinklers
-- Proposed tenant improvement converts office space to restaurant
-- Occupancy load will be approximately 100 persons
-- Owner claims existing building is grandfathered
-
-Question: Does the change in occupancy classification trigger sprinkler installation requirements under current California Building Code?
-
-Format:
-- Cite specific CBC sections
-- Explain how occupancy change affects requirements
-- Note any relevant exceptions or alternative compliance paths
-- Identify what additional information I need to determine if grandfather claim is valid
-
-I need to explain this to the owner and contractor, so avoid jargon where possible but include the specific code sections for reference.
-```
-
----
-
-#### Example 4: Grant Application Research (Economic Development)
-
-
-```
-Research grant opportunities for a technical assistance program targeting minority-owned small businesses in Garden Grove's downtown district.
-
-Program concept:
-- One-on-one business consulting
-- Digital marketing training
-- Access to micro-loans
-- Focus on businesses with < 10 employees
-- Emphasis on Vietnamese, Korean, and Hispanic business owners
-
-Search criteria:
-- Federal, state, or regional foundation grants
-- $50K - $250K range
-- Accepting applications in next 6 months
-- Eligible uses include staffing and consulting services
-- Preference for grants that don't require local match (our budget is tight)
-
-For each opportunity you find, provide:
-- Funder name and program
-- Award range
-- Deadline
-- Match requirement
-- One-sentence on fit with our program concept
-- Link to guidelines
-
-Focus on California-specific opportunities first, then federal programs that California municipalities have successfully secured.
-```
-
-#### Example 5: Public Works Maintenance Email (Public Works / OCR)
-
-```
-Draft an email to residents on Chapman Avenue between Magnolia and Brookhurst about upcoming water main replacement work.
-
-Key details:
-- Work starts February 15, runs 4-6 weeks weather dependent
-- Full street closure Monday-Friday 7am-4pm
-- Weekend access maintained
-- Driveway access maintained at all times (may require brief waits)
-- Parking prohibited in work zone
-- Detour route: Use Garden Grove Blvd or Westminster Ave
-
-Audience: Approximately 40 residential households, mixed ages, many senior citizens
-
-Tone: Professional but friendly, apologetic about inconvenience, emphasize we're available to answer questions
-
-Include:
-- What's happening and why
-- Specific dates and hours
-- What residents can expect
-- How to get updates or ask questions (include my contact info)
-- What to do about trash pickup on those days
-
-Length: Keep under 300 words - people need to actually read this.
-
-This will be both emailed and hand-delivered as door hangers, so format should work for both.
-```
----
-
-#### Example 6: Comparative Data Analysis (City Manager's Office)
-
-```
-Benchmark Garden Grove's recreation program cost recovery against comparable California cities.
-
-Background: 
-Our current cost recovery rate is 42% (program fees cover 42% of recreation operating costs, General Fund covers the rest). Council asked if this is typical or if we should adjust fees.
-
-Comparable cities (similar demographics and service levels):
-- Westminster
-- Stanton  
-- Fountain Valley
-- Santa Ana (larger but similar demographics)
-- Buena Park
-
-Task:
-1. Research what cost recovery rates these cities achieve for recreation programs
-2. Identify what fee structures they use (resident vs. non-resident, senior discounts, etc.)
-3. Note any programs they charge for that we offer free
-4. Find any recent fee studies or Council discussions about this
-
-Format:
-- Comparison table (city, cost recovery %, notes on fee structure)
-- Summary of findings (3-4 paragraphs)
-- Considerations for Garden Grove (what might we learn from their approaches)
-
-Note: I can verify any specific numbers you find before including in the report. Flag anything you're uncertain about.
-```
-
----
-
 ### Advanced Prompting Techniques
 
 #### Using Extended Thinking or Reasoning feature for Complex Tasks
+
+Useful for thorough analysis on consequential tasks, and helps you catch if AI is heading in the wrong direction.
 
 For complex tasks, prompt the AI to show its reasoning process and/or use extended thinking or reasoning feature of your GenAI:
 ```
@@ -756,7 +658,7 @@ The risk of "helpful" AI:
 - It gives you the answer you implied you wanted
 - It prioritizes sounding confident over acknowledging uncertainty
 
-For important decisions like policy recommendations, budget analysis, major proposals going to Council, *you need AI to challenge your thinking, not just agree with it*.
+For important decisions like policy recommendations, budget analysis, major proposals going to Council, *you want AI to challenge your thinking, not just agree with it*.
 
 ### The Solution
 
@@ -795,12 +697,14 @@ INCENTIVE VISIBILITY:
 - Identify whose values are embedded in how I frame issues
 ```
 
+**Note:** These instructions are comprehensive and help surface bias, uncertainty, and controversy - most useful for consequential decisions. They can be verbose for routine tasks; use your judgment about when to apply the full set.
+
 
 ## 8. Evaluating AI Output
 
 ### Why Evaluation Matters
 
-**The temptation:** AI produces impressive-looking content quickly. You see things it thought of that you hadn't. It's easy to accept output as-is.
+**The temptation:** AI produces impressive-looking content quickly. You see things it thought of that you hadn't. "It was right last 50 times, why wouldn't it be right again?" It's easy to accept output as-is.
 
 **The risk:** AI can be confidently wrong. It generates content to be helpful and agreeable, not necessarily to be accurate even if that was your stated constraint.
 
