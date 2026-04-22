@@ -183,8 +183,7 @@ The policy builds on existing regulations you already follow:
 
 **Why ChatGPT and Claude:**
 - Better privacy and safety track record
-- Enterprise versions don't use your data for model training
-- Clear contractual protections for our data
+- Don't train on your data (contractual protections ensure your prompts and data are not used to improve their models)
 
 **Why NOT other tools:**
 - Copilot and Gemini Enterprise require ecosystem commitments we're not ready for
@@ -201,7 +200,8 @@ The policy builds on existing regulations you already follow:
 **WARNING - Free Tier Accounts:**
 - Do not use free versions of ChatGPT, Claude, or any AI tool for city business
 - If using AI for personal purposes, ensure you're logged out before doing city work
-- Don't have free and enterprise accounts signed in simultaneously - too easy to use the wrong one
+- Be careful when free and enterprise accounts signed in simultaneously
+  - Easy to use the wrong account by mistake
 
 **3. Data Protection**
 - All data created using city accounts is city property
@@ -331,13 +331,7 @@ Despite these impressive capabilities, GenAI has inherent limitations because of
 - It can't be held responsible for bad recommendations
 - You own the outcomes of following its advice
 
-**4. It has no connection to current reality**
-- Its training data (most reliable) has a cutoff date
-- It doesn't know what happened at yesterday's Council meeting
-- It doesn't know Garden Grove's specific current circumstances unless you provide them
-- Even with web search, it's prone to errors in interpreting what it finds
-
-**5. It has no expertise or experience**
+**4. It has no firsthand experience**
 - For example, It's seen many building inspections described in text
 - It hasn't actually conducted building inspections  
 - It can articulate best practices but hasn't learned from failures
@@ -403,19 +397,16 @@ Same with AI.
 - Equity considerations need human awareness of impact
 - Anything affecting people's rights or services needs human accountability
 
-### When to Consider Traditional Methods
+### Don't Forget Traditional Methods
 
-Before reaching for AI, consider whether a direct, authoritative source would serve you better:
+**Your colleagues know things AI doesn't.**
+- Institutional knowledge, why we do it this way, who to call, what went wrong last time.
+- A real conversation often beats AI back-and-forth and builds relationships.
 
-**For code/policy/procedure questions:**
-- Check municipal code
-- Check administrative regulations (intranet)
-- Ask supervisor or subject matter expert
-
-**For legal/regulatory questions:**
-- Consult City Attorney's office
-- Check official state/federal agency websites
-- Review actual statutes, not summaries
+**Your own understanding matters.**
+- Reading the actual MOU, ordinance, contracts, or staff report builds understanding and retention AI summaries can't.
+- Take training courses, dive deep with books, experiment, make mistakes, fail, and learn from them.
+- You need all of this to judge AI output and for moments AI can't reach: the meeting, the field, the resident at the counter.
 
 ---
 
@@ -429,7 +420,7 @@ Before reaching for AI, consider whether a direct, authoritative source would se
 **You remain essential because:**
 - You understand the actual context and constraints
 - You provide judgment, ethics, and accountability  
-- You connect its outputs to real circumstances
+- You connect its outputs to real circumstances and remain accountable
 - You bring expertise AI can only approximate
 
 **Understanding how it works helps you:**
@@ -441,11 +432,11 @@ Before reaching for AI, consider whether a direct, authoritative source would se
 
 ---
 
-## 6. Everyday Casual Queries
+## 6. Casual Queries
 
-### Most AI use is probably a casual one
+### When AI Use is Casual
 
-Most people use AI like they use a search engine - typing in quick questions, getting fast answers, and moving on. This section acknowledges that reality and helps you understand when casual use is fine and when you need to shift to a more rigorous approach.
+Lots of people use AI like they use a search engine - typing in quick questions, getting fast answers, and moving on. This section acknowledges that reality and helps you understand when casual use is fine and when you need to shift to a more rigorous approach.
 
 ### How AI Differs from Search Engines
 
@@ -660,7 +651,7 @@ The risk of "helpful" AI:
 
 For important decisions like policy recommendations, budget analysis, major proposals going to Council, *you want AI to challenge your thinking, not just agree with it*.
 
-### The Solution
+### The Partial Solution
 
 You can combat this to a certain degree, while realizing that *no workaround can replace your own analysis, subject-matter expertise, and research*. 
 
@@ -1166,13 +1157,12 @@ Before and after using AI for any task, consider:
 
 ---
 
-## 12. Safety and Security Practices
+## 12. Other Safety and Security Concerns
 
 ### Checking Citations and References
 When AI provides sources, citations, or references:
 - Be cautious with URLs citations - some may be malicious, external bad actors trying to trick AI
 - Don't provide personal data when checking references
-- Cross-check important citations against authoritative sources
 
 ### Disable Web Search for Sensitive Work
 Most AI tools allow you to toggle web search on/off:
@@ -1183,13 +1173,19 @@ Most AI tools allow you to toggle web search on/off:
 ### AI Agents
 Up and coming advancement in GenAI is Agentic AI. These systems can do tasks on your behalf like browsing the web, fill out forms, booking reservations, or use your computer in general.
 - You are basically doing a screen sharing session with the AI agent
-- Take extra precautions as whatever is on your screen is being shared with these AI systems
 - Avoid sharing credentials
+
+### Shadow AI
+Be aware of AI that may be operating in contexts you don't immediately think of as "AI tools":
+- AI apps installed on your phone while doing City business
+- AI embedded in existing tools you already use (e.g., auto-suggestions, smart compose)
+- Browser extensions with AI capabilities
+- Meeting AI (transcription, summarization, or note-taking bots that join calls)
 
 ### AI Tools to Avoid Professionally (and Personally)
 
 **Avoid these tools entirely:**
-- **Perplexity**: Known security vulnerabilities, monetizes user data even on paid plans, no opt-out
+- **Perplexity**: Known security vulnerabilities
 - **DeepSeek, Qwen (Alibaba), Doubao (ByteDance), Ernie (Baidu)**: Data jurisdiction concerns (China), unclear or unknown data handling
 - **Meta AI (Facebook/Instagram) and X Grok**: Designed to monetize your data like their parent platforms
 - **Any free-tier generative AI for work purposes**: No contractual protections, may train on your data

@@ -213,12 +213,13 @@ Supervising an "almost perfect" system is boring -> boredom -> complacency.
 
 **Why these:**
 - Better privacy/safety track record
-- Enterprise versions don't train on your data
-- Clear contractual protections
+- Don't train on your data (contractual protections)
 
 **Why NOT others:**
 - Free versions may monetize your data
 - Other tools have documented security issues
+
+.
 </div>
 
 ---
@@ -233,8 +234,8 @@ Supervising an "almost perfect" system is boring -> boredom -> complacency.
 
 **WARNING - Free Tier Accounts:**
 - Do NOT use free versions for city business
-- Don't have free and enterprise accounts signed in simultaneously
-- Easy to use wrong account by mistake
+- Careful when free and enterprise accounts signed in simultaneously
+   - Easy to use wrong account by mistake
 
 ---
 
@@ -249,7 +250,6 @@ Supervising an "almost perfect" system is boring -> boredom -> complacency.
 - Law enforcement data
 - Contract details before public
 
-**All data created with city accounts = city property**
 
 ---
 
@@ -358,15 +358,14 @@ Use AI with understanding that it is **not objective or free of bias**
 1. **No real understanding** - Example: recognizes patterns about building codes, doesn't understand why they exist or what makes structure safe
 2. **No judgment or values** - can't determine if policy is ethical or fair
 3. **No accountability** - no consequences when wrong
-4. **No connection to current reality** - knowledge cutoff date, doesn't know yesterday's Council meeting
-5. **No expertise or experience** - Example: has seen inspections described, hasn't conducted them. Can provide best practices, but hasn't learned from failures. No "feel" for when something's "off".
+5. **No firsthand experience** - Example: has seen inspections described, hasn't conducted them. Can provide best practices, but hasn't learned from failures. No "feel" for when something's "off".
 
 ---
 
 ## You remain essential
 - You understand the actual context and constraints
 - You provide judgment, ethics, and accountability  
-- You connect its outputs to real circumstances
+- You connect its outputs to real circumstances and remain accountable
 - You bring expertise AI can only approximate
 
 **Understanding how GenAI works will allow you know how much to trust it, know its limitations, use it effectively as a tool and not treat it as an oracle.**
@@ -409,27 +408,27 @@ Use AI with understanding that it is **not objective or free of bias**
 
 ---
 
-## Consider Traditional Methods?
+## Don't Forget Traditional Methods
 
-**For code/policy/procedure questions:**
-- Check municipal code
-- Check admin regulations (intranet)
-- Ask supervisor or subject matter expert
 
-**For legal/regulatory questions:**
-- Consult City Attorney
-- Check official state/federal agency sites
-- Review actual statutes
+**Your colleagues know things AI doesn't.**
+- Institutional knowledge, why we do it this way, who to call, what went wrong last time.
+- A real conversation often beats AI back-and-forth and builds relationship.
 
----
-
-# 6. Everyday Casual Queries
+**Your own understanding matters.**
+- Reading the actual MOU, ordinance, contracts, or staff report builds understanding and retention AI summaries can't.
+- Take training courses, dive deep with books, experiment, make mistakes, fail, and learn from them.
+- You need all of this to judge AI output and for moments AI can't reach: the meeting, the field, the resident at the counter.
 
 ---
 
-## Most AI Use is Casual
+# 6. Casual Queries
 
-**Reality:** Most people use AI like a search engine
+---
+
+## When AI Use is Casual
+
+**Reality:** Lots of people use AI like a search engine
 - Quick questions
 - Fast answers
 - Move on
@@ -546,7 +545,7 @@ With search, you're doing the evaluation work yourself. With AI, the evaluation 
 - Acknowledge uncertainty (best it can)
 - Challenge your thinking
 
-**Solution:** Custom instructions to combat agreeability
+**Partial Solution:** Custom instructions to combat agreeability
 - See training manual for full instructions
 - Helps surface bias and controversy
 - But maybe too verbose for some tasks
@@ -812,118 +811,6 @@ Understanding them helps you get better results for specific tasks
 
 ---
 
-## Tool 3: Code Execution
-
----
-
-## Code Execution and Data Analysis
-
-**What it does:**
-- AI writes and runs code to perform tasks
-- Analyzes data, creates visualizations
-- Performs calculations, manipulates files
-- Processes structured information
-- Creates interactive tools and applications
-
-**Why use code for calculations:**
-- GenAI struggles with complex "mental math"
-- Provides reliable calculations
-
----
-
-## Interactive Apps
-
-**Code execution creates interactive tools and applications:**
-
-- Web-based fee schedule calculators
-- Interactive budget scenario planners  
-- Data visualization dashboards that update based on user inputs
-
-**AI builds the tool, you use it directly - no coding knowledge required**
-
----
-
-## Code Execution: Use Cases
-
-<div style="columns: 2;">
-
-**Data analysis:**
-- Spreadsheet/CSV analysis
-- Charts and visualizations
-- Statistical analysis
-- Large dataset processing
-- Format conversions
-- Data cleaning
-
-**Interactive tools:**
-- Fee calculators
-- Budget scenario planners
-- Data dashboards
-- Custom web-based tools
-
-</div>
-
----
-
-## CRITICAL: Data Sensitivity Warning
-
-**When AI executes code on your data:**
-- Code may use external libraries connecting to outside services
-- Data could be processed through third-party tools
-- Some operations require internet connectivity
-- Errors might expose data in logs
-
-**Best practice:**
-- **Only use code execution with non-confidential data**
-- Treat with extra care around sensitive information
-
----
-
-## Code Execution Best Practices
-
-- Double-check calculations, especially financial data
-- Provide clean, well-organized data files
-- Clearly specify needed calculations or analysis
-- Request visualizations appropriate for audience
-- Save generated charts/tables/tools (not persistent)
-- Ask AI to revise if first attempt isn't right
-- Request plain English explanation of code
-- Always verify results
-- When a simple spreadsheet would work just as well, probably skip this tool
-
-**You don't need to know how to code to use this effectively**
-
----
-
-## Code Execution Examples
-
-**See training manual for detailed examples:**
-
-**Recreation program attendance analysis:**
-- Calculate averages, participation rates
-- Identify trends
-- Generate comparison tables and charts
-
-**Interactive fee calculator:**
-- Takes program and age as input
-- Applies discounts automatically
-- Shows fee breakdown in real-time
-
----
-
-## Combining Tools
-
-
-**Example: Grant research and tracking**
-
-1. **Web search:** Find currently available grants
-2. **Projects:** Create grant tracking project with requirements and deadlines
-3. **Code execution:** Analyze budget data to match grant criteria
-
-**Strategic combination produces more powerful results**
-
----
-
 ## Key Takeaway: AI Tools
 
 <div style="columns: 2;">
@@ -939,14 +826,6 @@ Understanding them helps you get better results for specific tasks
 - Shared knowledge base
 
 </div>
-
-**Code Execution:**
-- Reliable quantitative analysis
-- Data processing and visualization
-- Interactive tools
-- Only use with non-confidential data
-
-**Always with human oversight and verification**
 
 ---
 
@@ -1001,20 +880,17 @@ Understanding them helps you get better results for specific tasks
 
 ---
 
-# 12. Safety and Security Practices
+# 12. Other Safety and Security Concerns
 
 ---
 
-## Safety Practices
+## Safety Concerns
 
 <div style="columns: 2">
 
 **Checking citations:**
 - Be cautious with URLs - some may be malicious
 - Don't provide personal data when checking citations
-- Cross-check against authoritative sources
-
-.
 
 **Disable web search for sensitive work:**
 - Turn OFF when working with confidential data you've provided
@@ -1022,8 +898,13 @@ Understanding them helps you get better results for specific tasks
 
 **AI Agents:**
 - Like screen sharing with AI system
-- Take extra precautions
 - Avoid sharing credentials
+
+**Shadow AI**
+- AI App installed on your phone while doing City business
+- AI embeded to existing tools
+- Browser extension
+- Meeting AI
 
 
 </div>
@@ -1033,7 +914,7 @@ Understanding them helps you get better results for specific tasks
 ## AI Tools to Avoid (Professionally and personally)
 
 **Avoid entirely:**
-- **Perplexity:** Known security vulnerabilities, monetizes your data
+- **Perplexity:** Known security vulnerabilities
 - **DeepSeek, Qwen, Doubao, Ernie:** Data jurisdiction concerns (China)
 - **Meta AI, X Grok:** Designed to monetize your data like parent platforms
 - **Any free-tier generative AI for work**
