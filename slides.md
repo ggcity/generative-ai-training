@@ -15,12 +15,11 @@ paginate: true
 
 **Reality:** AI tools are already in use across departments
 - Often informally, sometimes with personal accounts
-- Frequently without understanding risks or policies
+- Soemtimes without understanding risks or policies
 
 **What's at stake:**
 - Decisions depend on accurate information
 - Public trust depends on transparent communications
-- Public Records Act may apply to AI content
 - Data breaches with PII create legal harm
 - AI outputs can embed biases that affect decisions
 
@@ -29,9 +28,9 @@ paginate: true
 ## What We'll Cover
 
 - What GenAI is and how it differs from other tools
-- Garden Grove's policy requirements
-- Risks specific to GenAI
-- When and how to use AI effectively
+- Risks associated with GenAI
+- Garden Grove's policy
+- How to use AI effectively
 - Your responsibilities
 
 
@@ -93,7 +92,6 @@ GenAI is designed for creative and novel content generation, not necessarily fac
 
 # 3. Understanding the Risks
 
-Risks not specific to GenAI, but can be easily overlooked
 
 ---
 
@@ -124,11 +122,11 @@ Risks not specific to GenAI, but can be easily overlooked
 - Competitive bid details
 
 **How leaks happen:**
-- Prompts become training data
-- Accidental sharing via history
-- Personal/free accounts
+- Your data becomes training data
+- Accidental sharing
 - Malicious software in AI tools
 - Malicious search sources
+.
 
 </div>
 
@@ -196,11 +194,9 @@ Supervising an "almost perfect" system is boring -> boredom -> complacency.
 
 ## Policy Framework
 
+**Policy 1.21**
+
 **Foundation:** AR 2.11 (Computer Systems) + AR 2.16 (Cloud Computing)
-
-**Core principle:** Generative AI is a cloud computing service with additional protections due to specific risks
-
-**Key message:** These aren't new restrictions - they extend existing policies you already follow
 
 ---
 
@@ -216,10 +212,9 @@ Supervising an "almost perfect" system is boring -> boredom -> complacency.
 - Don't train on your data (contractual protections)
 
 **Why NOT others:**
-- Free versions may monetize your data
+- Free versions may train on or monetize your data
 - Other tools have documented security issues
-
-.
+- Ecosystems we're not ready for
 </div>
 
 ---
@@ -281,10 +276,7 @@ Supervising an "almost perfect" system is boring -> boredom -> complacency.
 Use AI with understanding that it is **not objective or free of bias**
 
 **Apply extra scrutiny to things like:**
-- Hiring recommendations
-- Service delivery decisions
-- Enforcement prioritization
-- Any decisions affecting people
+- Equity and fairness recommendations
 
 ---
 
@@ -309,7 +301,6 @@ Use AI with understanding that it is **not objective or free of bias**
 
 **Key points:**
 - AI conversations are subject to Public Records Act
-- Treat AI drafts like email drafts and working documents
 - No formal retention schedule yet (in development)
 - When in doubt: consult City Clerk
 
@@ -394,6 +385,7 @@ Use AI with understanding that it is **not objective or free of bias**
 - Exploring variations
 - Repetitive tasks
 - Answers and how-tos
+- Brainstorming
 </div>
 
 
@@ -489,7 +481,7 @@ With search, you're doing the evaluation work yourself. With AI, the evaluation 
 
 ---
 
-# 7. Effective Prompting for Involved Tasks
+# 7. Effective Prompting
 
 ---
 
@@ -500,6 +492,9 @@ With search, you're doing the evaluation work yourself. With AI, the evaluation 
 3. **Audience:** Who will read/use this
 4. **Format:** How output should be structured
 5. **Examples:** What good output looks like
+6. **Frame the response**: Where are you coming from
+
+**Remeber:** AI was built to generate novel content. Narrowing down scope this way allows it to be more useful for your specific case.
 
 
 ---
@@ -683,13 +678,13 @@ If you think AI is getting off track, ask it to write a summary prompt for you t
 
 **Good for:** Generating options, exploring approaches, challenging assumptions
 
-**Watch out for:** Ideas may be impractical, lack understanding of constraints
+**Watch out for:** Ideas may be impractical, lack understanding of constraints, may not be complete
 
 **Best practice:** This is where AI excels - use freely, but apply judgment about feasibility
 
 ---
 
-# 10. AI Tools: Web Search, Projects, and Code Execution
+# 10. AI Tools: Web Search and Projects
 
 ---
 
@@ -698,7 +693,6 @@ If you think AI is getting off track, ask it to write a summary prompt for you t
 **Modern enterprise AI platforms include:**
 1. Web Search
 2. Projects
-3. Code Execution / Data Analysis
 
 **These tools extend AI beyond text generation**
 
@@ -779,24 +773,6 @@ Understanding them helps you get better results for specific tasks
 
 </div>
 
-
----
-
-## Project Examples
-
-**See training manual for detailed setups:**
-
-1. **Council Staff Reports Project**
-   - Templates, examples, style guide uploaded
-   - Consistent formatting across all reports
-
-2. **Budget Analysis Project**
-   - Current/prior year budgets, strategic plans
-   - All analysis references same data
-
-3. **Policy Development Project**
-   - Research, comments, legal memos, drafts
-   - Maintain context through iterations
 
 ---
 
@@ -901,7 +877,7 @@ Understanding them helps you get better results for specific tasks
 - Avoid sharing credentials
 
 **Shadow AI**
-- AI App installed on your phone while doing City business
+- AI App installed on your phone or computer while doing City business (Grammarly, copilot)
 - AI embeded to existing tools
 - Browser extension
 - Meeting AI
@@ -911,7 +887,7 @@ Understanding them helps you get better results for specific tasks
 
 ---
 
-## AI Tools to Avoid (Professionally and personally)
+## AI Tools to Avoid (Professionally and (maybe) personally)
 
 **Avoid entirely:**
 - **Perplexity:** Known security vulnerabilities
@@ -919,7 +895,6 @@ Understanding them helps you get better results for specific tasks
 - **Meta AI, X Grok:** Designed to monetize your data like parent platforms
 - **Any free-tier generative AI for work**
 
-**Why:** No contractual protections, may train on your data, unclear data handling
 
 ---
 
