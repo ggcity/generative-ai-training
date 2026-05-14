@@ -2,20 +2,19 @@
 
 ## 1. Why This Training
 
-Generative AI tools are already in use across city departments - often informally, sometimes with personal accounts, frequently without clear understanding of risks or policies.
+Generative AI tools are already in use across city departments - often informally, sometimes with personal accounts, and sometimes without a clear understanding of the risks or the City's policies. That's what this training is here to address.
 
 **The stakes:**
 - Decisions assisted by AI depend on accurate information
 - Public trust depends on transparent, accurate communications
-- Public Records Act may apply to AI-generated content
-- Data breaches with PII create legal and reputational harm
-- AI outputs can embed biases that affect decisions
+- Data breaches involving PII create legal and reputational harm
+- AI outputs can embed biases that affect decisions and services
 
 **What this training covers:**
 - What GenAI is and how it differs from other tools you use
+- Risks associated with GenAI
 - Garden Grove's policy and why it exists
-- Risks specific to GenAI
-- Practical guidelines for using AI responsibly and effectively
+- How to use AI effectively and responsibly
 - Your responsibilities
 - Example scenarios
 
@@ -107,11 +106,10 @@ Different AI platforms have different privacy policies. Some explicitly monetize
 - Competitive bid details before they're public
 
 **How data leaks happen:**
-- Your prompts become training data for the AI and bad actors know how to coax it out of the AI
-- Accidental sharing through conversation history
-- Using personal/free accounts that have weaker protections
-- Malicious software GenAI uses to compute your queries
-- Malicious search results or citations
+- Your data — including everything in your prompts — can become training data for the AI model, and bad actors know how to craft queries that coax private information back out of it
+- Accidental sharing: AI tools often maintain conversation history that others may be able to access, and copying or sharing sessions carelessly can expose sensitive content
+- Malicious software: Some AI tools or extensions may rely on third-party code that can intercept or expose your data
+- Malicious search results or citations: When AI browses the web on your behalf, it can be misled by sites designed to manipulate its outputs or extract information
 
 ### Bias / Discrimination
 AI systems have no judgment, compassion, or reflection - they follow patterns in their training data. If the training data reflects human biases, AI could potentially amplifies them.
@@ -167,7 +165,7 @@ Supervising an "almost perfect" system is boring → boredom → complacency.
 
 ### Core Policy Framework
 
-The policy builds on existing regulations you already follow:
+Garden Grove's generative AI policy is **Policy 1.21**, which establishes clear expectations for how city employees may use AI tools. It builds on existing regulations you already follow:
 - **AR 2.11**: Computer System Policies and Procedures
 - **AR 2.16**: Cloud Computing Services Policy
 
@@ -186,9 +184,9 @@ The policy builds on existing regulations you already follow:
 - Don't train on your data (contractual protections ensure your prompts and data are not used to improve their models)
 
 **Why NOT other tools:**
-- Copilot and Gemini Enterprise require ecosystem commitments we're not ready for
-- Free/consumer versions may use your data for training or monetization
-- Other tools have documented security issues or data handling concerns (see Section 12 for specifics)
+- Free or consumer versions of AI tools may train on your data or monetize it in ways that violate the City's data policies — even if their enterprise versions are fine
+- Tools like Copilot and Gemini Enterprise require broader ecosystem commitments (Microsoft 365 or Google Workspace integrations) that the City isn't ready to support or govern yet
+- Other tools have documented security issues or problematic data handling (see Section 12 for specifics)
 
 **2. Account Requirements**
 - **Must use city-provisioned accounts only** - IT must create your account
@@ -222,7 +220,7 @@ The policy builds on existing regulations you already follow:
 
 **5. Bias Awareness**
 - Use AI with understanding that it is not objective or free of bias
-- Apply extra scrutiny to AI recommendations affecting people (hiring, services, enforcement)
+- Apply extra scrutiny to AI recommendations that touch on equity and fairness — this includes hiring and personnel decisions, service delivery recommendations, enforcement prioritization, and any analysis where disparate impact on different groups is a concern. AI can reflect and amplify patterns of inequity that exist in historical data without flagging them as problematic.
 
 **6. Disclosure Requirements**
 Disclose AI use when transparency serves public interest, promotes trust, or enables informed decision-making:
@@ -239,9 +237,8 @@ Disclose AI use when transparency serves public interest, promotes trust, or ena
 
 **7. Public Records and Retention**
 - **AI conversations and outputs are subject to California Public Records Act**
-- We do not yet have a formal retention schedule for AI-generated content
-- Treat AI-generated drafts like you'd treat email drafts and other working documents
-- When in doubt, consult City Clerk's office
+- We do not yet have a formal retention schedule for AI-generated content — this is in development
+- When in doubt about whether to retain or how to classify AI-generated content, consult the City Clerk's office
 
 **[NOTE: Formal retention schedule for AI content is in development]**
 
@@ -495,7 +492,7 @@ Warning signs that your "quick question" actually needs more of your attention:
 * It's about policy interpretation or legal requirements
 * Money or safety implications
 
-## 7. Effective Prompting for More Involved Tasks
+## 7. Effective Prompting
 
 **Modern AI handles natural, conversational language very well.** You don't need to craft the perfect prompt on the first try - starting with a rough question and iterating is often just as effective. The key skill is knowing how to refine and course-correct as you go, not writing elaborate prompts upfront.
 
@@ -508,6 +505,9 @@ That said, for complex or consequential tasks, a bit of structure helps you get 
 3. **Audience:** Who will read/use this
 4. **Format:** How the output should be structured
 5. **Examples:** What good output looks like (AI excels at pattern matching)
+6. **Frame the response:** What perspective or vantage point you want the AI to come from — for example, "approach this from the standpoint of a city attorney reviewing for liability" or "respond as if I'm a department head who already understands the basics." This helps the AI calibrate its tone, depth, and assumptions rather than defaulting to a generic response.
+
+**Remember:** AI was built to generate novel content — it's optimized for variety and fluency, not precision. Narrowing the scope through these elements is what allows it to be genuinely useful for your specific situation rather than producing something generically plausible.
 
 **Be as clear as you would with a human colleague.** The AI can't read your mind or know internal processes unless you explain them.
 
@@ -846,12 +846,13 @@ AI is excellent at exploring variations. Use that strength.
 - Ideas may be impractical for your context
 - May lack understanding of political/regulatory constraints
 - Can be overly optimistic about feasibility
+- The list of ideas may not be complete — AI tends to generate a plausible set of options rather than an exhaustive one, so don't treat its brainstorm as the definitive universe of possibilities
 
-**Best practice:** This is where Gen AI excels - use it freely, but apply your judgment about what's realistic.
+**Best practice:** This is where Gen AI excels - use it freely, but apply your judgment about what's realistic and what else might be missing.
 
 ---
 
-## 10. AI Tools: Web Search, Projects, and Code Execution
+## 10. AI Tools: Web Search and Projects
 
 Modern AI platforms offer built-in tools that extend what they can do beyond just text generation. These tools are available in ChatGPT Enterprise, Claude for Work, and similar enterprise AI platforms. Understanding these tools helps you get better results for specific types of tasks.
 
@@ -1176,13 +1177,15 @@ Up and coming advancement in GenAI is Agentic AI. These systems can do tasks on 
 - Avoid sharing credentials
 
 ### Shadow AI
-Be aware of AI that may be operating in contexts you don't immediately think of as "AI tools":
-- AI apps installed on your phone while doing City business
-- AI embedded in existing tools you already use (e.g., auto-suggestions, smart compose)
-- Browser extensions with AI capabilities
-- Meeting AI (transcription, summarization, or note-taking bots that join calls)
+"Shadow AI" refers to AI that shows up in your work without you necessarily choosing it as an AI tool. It's more pervasive than most people realize:
+- AI apps installed on your **phone or computer** while doing City business — tools like Grammarly or Microsoft Copilot embedded in Word may be silently processing your content through external servers
+- AI embedded in existing tools you already use (e.g., auto-suggestions, smart compose in email, or AI assistants built into software)
+- Browser extensions with AI capabilities — these can read page content and intercept what you type
+- Meeting AI (transcription, summarization, or note-taking bots that join calls — sometimes added by another participant without your knowledge)
 
-### AI Tools to Avoid Professionally (and Personally)
+The concern with Shadow AI isn't just policy compliance — it's that these tools may have very different data policies than the city-provisioned tools you use, and you may not even realize your City business content is being processed by them.
+
+### AI Tools to Avoid Professionally (and Maybe Personally)
 
 **Avoid these tools entirely:**
 - **Perplexity**: Known security vulnerabilities

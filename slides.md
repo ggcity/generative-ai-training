@@ -51,7 +51,7 @@ paginate: true
 **Generative AI creates new content:**
 - Text, images, audio, video
 - Adapts to prompts, learns from conversation
-- Common tools: ChatGPT, Claude, Gemini
+- Common tools: ChatGPT, Claude, Gemini, Copilot
 
 ---
 
